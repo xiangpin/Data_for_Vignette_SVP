@@ -12,12 +12,12 @@
 
 # Usage
 
-\|\> Note: In the `R` environment
+Note: In the `R` environment
 
 ``` r
 # load spatial transcriptome
-load(url("https://github.com/xiangpin/Data_for_Vignette_SVP/blob/main/data/pdac_a_spe.rda?raw=true"))
+pdac_a_sce <- readRDS(url("https://raw.githubusercontent.com/xiangpin/Data_for_Vignette_SVP/main/data/pdac_a_sce.rds"))
 
 # load single-cell transcriptome
-load(url("https://github.com/xiangpin/Data_for_Vignette_SVP/blob/main/data/pdac_a_sce.rda?raw=true"))
+pdac_a_spe <- readRDS(url("https://raw.githubusercontent.com/xiangpin/Data_for_Vignette_SVP/main/data/pdac_a_spe.rds"))
 ```
